@@ -1,0 +1,744 @@
+{
+  "main": [
+    {
+      "layout": "2016-inspired (2x24 ladder)",
+      "case": "ideal",
+      "fidelity": 1.0,
+      "fidelity_err": 0.0,
+      "depth": 42,
+      "two_qubit_gates": 70,
+      "swaps": 23,
+      "physical_qubits": 25,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 24,
+      "ports": [
+        0,
+        47
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "2016-inspired (2x24 ladder)",
+      "case": "noisy",
+      "fidelity": 0.6871875,
+      "fidelity_err": 0.003909679681872128,
+      "depth": 42,
+      "two_qubit_gates": 70,
+      "swaps": 23,
+      "physical_qubits": 25,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 24,
+      "ports": [
+        0,
+        47
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "2016-inspired (2x24 ladder)",
+      "case": "protected+noisy",
+      "fidelity": 0.9328327269317849,
+      "fidelity_err": 0.002443923300424622,
+      "depth": 48,
+      "two_qubit_gates": 75,
+      "swaps": 24,
+      "physical_qubits": 25,
+      "ancillas": 1,
+      "acceptance": 0.6708333333333333,
+      "port_distance": 24,
+      "ports": [
+        0,
+        47
+      ],
+      "ancilla_qubit": 12
+    },
+    {
+      "layout": "Contemporary IBM (heavy-hex)",
+      "case": "ideal",
+      "fidelity": 1.0,
+      "fidelity_err": 0.0,
+      "depth": 30,
+      "two_qubit_gates": 46,
+      "swaps": 15,
+      "physical_qubits": 17,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 16,
+      "ports": [
+        0,
+        24
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "Contemporary IBM (heavy-hex)",
+      "case": "noisy",
+      "fidelity": 0.7699374999999999,
+      "fidelity_err": 0.0034680004116880883,
+      "depth": 30,
+      "two_qubit_gates": 46,
+      "swaps": 15,
+      "physical_qubits": 17,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 16,
+      "ports": [
+        0,
+        24
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "Contemporary IBM (heavy-hex)",
+      "case": "protected+noisy",
+      "fidelity": 0.9405505133565322,
+      "fidelity_err": 0.002176643012233227,
+      "depth": 36,
+      "two_qubit_gates": 51,
+      "swaps": 16,
+      "physical_qubits": 17,
+      "ancillas": 1,
+      "acceptance": 0.7528333333333334,
+      "port_distance": 16,
+      "ports": [
+        0,
+        24
+      ],
+      "ancilla_qubit": 12
+    },
+    {
+      "layout": "Hyperbolic {8,3} patch",
+      "case": "ideal",
+      "fidelity": 1.0,
+      "fidelity_err": 0.0,
+      "depth": 18,
+      "two_qubit_gates": 28,
+      "swaps": 9,
+      "physical_qubits": 11,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 10,
+      "ports": [
+        17,
+        33
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "Hyperbolic {8,3} patch",
+      "case": "noisy",
+      "fidelity": 0.8323750000000001,
+      "fidelity_err": 0.003041072680301311,
+      "depth": 18,
+      "two_qubit_gates": 28,
+      "swaps": 9,
+      "physical_qubits": 11,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 10,
+      "ports": [
+        17,
+        33
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "Hyperbolic {8,3} patch",
+      "case": "protected+noisy",
+      "fidelity": 0.9361066062553003,
+      "fidelity_err": 0.002170004415894213,
+      "depth": 27,
+      "two_qubit_gates": 33,
+      "swaps": 10,
+      "physical_qubits": 11,
+      "ancillas": 1,
+      "acceptance": 0.811875,
+      "port_distance": 10,
+      "ports": [
+        17,
+        33
+      ],
+      "ancilla_qubit": 3
+    }
+  ],
+  "sweep": [
+    {
+      "layout": "heavy-hex d=1",
+      "case": "noisy",
+      "fidelity": 0.9474374999999999,
+      "fidelity_err": 0.001780432515263145,
+      "depth": 3,
+      "two_qubit_gates": 1,
+      "swaps": 0,
+      "physical_qubits": 2,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 1,
+      "ports": [
+        0,
+        25
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=1",
+      "case": "protected+noisy",
+      "fidelity": 0.9412156708658344,
+      "fidelity_err": 0.0019556737105690244,
+      "depth": 14,
+      "two_qubit_gates": 8,
+      "swaps": 1,
+      "physical_qubits": 3,
+      "ancillas": 1,
+      "acceptance": 0.922875,
+      "port_distance": 1,
+      "ports": [
+        0,
+        25
+      ],
+      "ancilla_qubit": 5
+    },
+    {
+      "layout": "heavy-hex d=2",
+      "case": "noisy",
+      "fidelity": 0.9344375,
+      "fidelity_err": 0.0019787184388275793,
+      "depth": 5,
+      "two_qubit_gates": 4,
+      "swaps": 1,
+      "physical_qubits": 3,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 2,
+      "ports": [
+        0,
+        1
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=2",
+      "case": "protected+noisy",
+      "fidelity": 0.9411552859255581,
+      "fidelity_err": 0.0019691121938646464,
+      "depth": 15,
+      "two_qubit_gates": 9,
+      "swaps": 2,
+      "physical_qubits": 3,
+      "ancillas": 1,
+      "acceptance": 0.9113333333333333,
+      "port_distance": 2,
+      "ports": [
+        0,
+        1
+      ],
+      "ancilla_qubit": 37
+    },
+    {
+      "layout": "heavy-hex d=3",
+      "case": "noisy",
+      "fidelity": 0.919625,
+      "fidelity_err": 0.0021797097893125595,
+      "depth": 6,
+      "two_qubit_gates": 7,
+      "swaps": 2,
+      "physical_qubits": 4,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 3,
+      "ports": [
+        0,
+        38
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=3",
+      "case": "protected+noisy",
+      "fidelity": 0.9422801013304012,
+      "fidelity_err": 0.0019632103379350558,
+      "depth": 18,
+      "two_qubit_gates": 12,
+      "swaps": 3,
+      "physical_qubits": 4,
+      "ancillas": 1,
+      "acceptance": 0.899875,
+      "port_distance": 3,
+      "ports": [
+        0,
+        38
+      ],
+      "ancilla_qubit": 1
+    },
+    {
+      "layout": "heavy-hex d=4",
+      "case": "noisy",
+      "fidelity": 0.9098125,
+      "fidelity_err": 0.002299989703611464,
+      "depth": 9,
+      "two_qubit_gates": 10,
+      "swaps": 3,
+      "physical_qubits": 5,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 4,
+      "ports": [
+        0,
+        2
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=4",
+      "case": "protected+noisy",
+      "fidelity": 0.944198574189183,
+      "fidelity_err": 0.001947776075382558,
+      "depth": 18,
+      "two_qubit_gates": 15,
+      "swaps": 4,
+      "physical_qubits": 5,
+      "ancillas": 1,
+      "acceptance": 0.8849583333333333,
+      "port_distance": 4,
+      "ports": [
+        0,
+        2
+      ],
+      "ancilla_qubit": 1
+    },
+    {
+      "layout": "heavy-hex d=5",
+      "case": "noisy",
+      "fidelity": 0.8958750000000001,
+      "fidelity_err": 0.0024567693868803595,
+      "depth": 12,
+      "two_qubit_gates": 13,
+      "swaps": 4,
+      "physical_qubits": 6,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 5,
+      "ports": [
+        0,
+        39
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=5",
+      "case": "protected+noisy",
+      "fidelity": 0.9426534274336799,
+      "fidelity_err": 0.0019846001028044416,
+      "depth": 18,
+      "two_qubit_gates": 18,
+      "swaps": 5,
+      "physical_qubits": 6,
+      "ancillas": 1,
+      "acceptance": 0.8751666666666666,
+      "port_distance": 5,
+      "ports": [
+        0,
+        39
+      ],
+      "ancilla_qubit": 1
+    },
+    {
+      "layout": "heavy-hex d=6",
+      "case": "noisy",
+      "fidelity": 0.8800625,
+      "fidelity_err": 0.0026170733184047884,
+      "depth": 15,
+      "two_qubit_gates": 16,
+      "swaps": 5,
+      "physical_qubits": 7,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 6,
+      "ports": [
+        0,
+        3
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=6",
+      "case": "protected+noisy",
+      "fidelity": 0.9439265919201696,
+      "fidelity_err": 0.0019748231316372637,
+      "depth": 21,
+      "two_qubit_gates": 21,
+      "swaps": 6,
+      "physical_qubits": 7,
+      "ancillas": 1,
+      "acceptance": 0.8649583333333334,
+      "port_distance": 6,
+      "ports": [
+        0,
+        3
+      ],
+      "ancilla_qubit": 38
+    },
+    {
+      "layout": "heavy-hex d=7",
+      "case": "noisy",
+      "fidelity": 0.8654375,
+      "fidelity_err": 0.0027509933397717903,
+      "depth": 18,
+      "two_qubit_gates": 19,
+      "swaps": 6,
+      "physical_qubits": 8,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 7,
+      "ports": [
+        0,
+        31
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=7",
+      "case": "protected+noisy",
+      "fidelity": 0.9380747639648823,
+      "fidelity_err": 0.002091905953564587,
+      "depth": 24,
+      "two_qubit_gates": 24,
+      "swaps": 7,
+      "physical_qubits": 8,
+      "ancillas": 1,
+      "acceptance": 0.84775,
+      "port_distance": 7,
+      "ports": [
+        0,
+        31
+      ],
+      "ancilla_qubit": 28
+    },
+    {
+      "layout": "heavy-hex d=8",
+      "case": "noisy",
+      "fidelity": 0.8571875,
+      "fidelity_err": 0.002829849871100718,
+      "depth": 18,
+      "two_qubit_gates": 22,
+      "swaps": 7,
+      "physical_qubits": 9,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 8,
+      "ports": [
+        0,
+        4
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=8",
+      "case": "protected+noisy",
+      "fidelity": 0.9452796044571731,
+      "fidelity_err": 0.0019876699065293495,
+      "depth": 24,
+      "two_qubit_gates": 27,
+      "swaps": 8,
+      "physical_qubits": 9,
+      "ancillas": 1,
+      "acceptance": 0.833875,
+      "port_distance": 8,
+      "ports": [
+        0,
+        4
+      ],
+      "ancilla_qubit": 2
+    },
+    {
+      "layout": "heavy-hex d=9",
+      "case": "noisy",
+      "fidelity": 0.8428125,
+      "fidelity_err": 0.002955759985155045,
+      "depth": 18,
+      "two_qubit_gates": 25,
+      "swaps": 8,
+      "physical_qubits": 10,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 9,
+      "ports": [
+        0,
+        44
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=9",
+      "case": "protected+noisy",
+      "fidelity": 0.9412391257298762,
+      "fidelity_err": 0.0020595554568484833,
+      "depth": 26,
+      "two_qubit_gates": 30,
+      "swaps": 9,
+      "physical_qubits": 11,
+      "ancillas": 1,
+      "acceptance": 0.8317083333333334,
+      "port_distance": 9,
+      "ports": [
+        0,
+        44
+      ],
+      "ancilla_qubit": 2
+    },
+    {
+      "layout": "heavy-hex d=10",
+      "case": "noisy",
+      "fidelity": 0.8326874999999999,
+      "fidelity_err": 0.0030381441414486492,
+      "depth": 17,
+      "two_qubit_gates": 28,
+      "swaps": 9,
+      "physical_qubits": 11,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 10,
+      "ports": [
+        0,
+        9
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=10",
+      "case": "protected+noisy",
+      "fidelity": 0.9355817886464608,
+      "fidelity_err": 0.002178256487344051,
+      "depth": 27,
+      "two_qubit_gates": 33,
+      "swaps": 10,
+      "physical_qubits": 11,
+      "ancillas": 1,
+      "acceptance": 0.8120416666666667,
+      "port_distance": 10,
+      "ports": [
+        0,
+        9
+      ],
+      "ancilla_qubit": 39
+    },
+    {
+      "layout": "heavy-hex d=11",
+      "case": "noisy",
+      "fidelity": 0.817,
+      "fidelity_err": 0.0031569341770834405,
+      "depth": 21,
+      "two_qubit_gates": 31,
+      "swaps": 10,
+      "physical_qubits": 12,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 11,
+      "ports": [
+        0,
+        30
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=11",
+      "case": "protected+noisy",
+      "fidelity": 0.9420035348852693,
+      "fidelity_err": 0.002088946555768739,
+      "depth": 30,
+      "two_qubit_gates": 36,
+      "swaps": 11,
+      "physical_qubits": 12,
+      "ancillas": 1,
+      "acceptance": 0.7985416666666667,
+      "port_distance": 11,
+      "ports": [
+        0,
+        30
+      ],
+      "ancilla_qubit": 3
+    },
+    {
+      "layout": "heavy-hex d=12",
+      "case": "noisy",
+      "fidelity": 0.810875,
+      "fidelity_err": 0.003197390751407701,
+      "depth": 24,
+      "two_qubit_gates": 34,
+      "swaps": 11,
+      "physical_qubits": 13,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 12,
+      "ports": [
+        0,
+        14
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=12",
+      "case": "protected+noisy",
+      "fidelity": 0.9416453270456351,
+      "fidelity_err": 0.0021049316055561456,
+      "depth": 30,
+      "two_qubit_gates": 39,
+      "swaps": 12,
+      "physical_qubits": 13,
+      "ancillas": 1,
+      "acceptance": 0.7904166666666667,
+      "port_distance": 12,
+      "ports": [
+        0,
+        14
+      ],
+      "ancilla_qubit": 3
+    },
+    {
+      "layout": "heavy-hex d=13",
+      "case": "noisy",
+      "fidelity": 0.8001250000000001,
+      "fidelity_err": 0.0032769778736474555,
+      "depth": 24,
+      "two_qubit_gates": 37,
+      "swaps": 12,
+      "physical_qubits": 14,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 13,
+      "ports": [
+        0,
+        52
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=13",
+      "case": "protected+noisy",
+      "fidelity": 0.9354133608471594,
+      "fidelity_err": 0.0022195707435672457,
+      "depth": 30,
+      "two_qubit_gates": 42,
+      "swaps": 13,
+      "physical_qubits": 14,
+      "ancillas": 1,
+      "acceptance": 0.7837916666666667,
+      "port_distance": 13,
+      "ports": [
+        0,
+        52
+      ],
+      "ancilla_qubit": 7
+    },
+    {
+      "layout": "heavy-hex d=14",
+      "case": "noisy",
+      "fidelity": 0.7888125,
+      "fidelity_err": 0.0033515775057939134,
+      "depth": 27,
+      "two_qubit_gates": 40,
+      "swaps": 13,
+      "physical_qubits": 15,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 14,
+      "ports": [
+        0,
+        19
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=14",
+      "case": "protected+noisy",
+      "fidelity": 0.937763359271686,
+      "fidelity_err": 0.002198434071700845,
+      "depth": 33,
+      "two_qubit_gates": 45,
+      "swaps": 14,
+      "physical_qubits": 15,
+      "ancillas": 1,
+      "acceptance": 0.7709583333333333,
+      "port_distance": 14,
+      "ports": [
+        0,
+        19
+      ],
+      "ancilla_qubit": 43
+    },
+    {
+      "layout": "heavy-hex d=15",
+      "case": "noisy",
+      "fidelity": 0.7756875,
+      "fidelity_err": 0.0034300862524459575,
+      "depth": 30,
+      "two_qubit_gates": 43,
+      "swaps": 14,
+      "physical_qubits": 16,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 15,
+      "ports": [
+        0,
+        36
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=15",
+      "case": "protected+noisy",
+      "fidelity": 0.9338697522848715,
+      "fidelity_err": 0.0022712886363392575,
+      "depth": 33,
+      "two_qubit_gates": 48,
+      "swaps": 15,
+      "physical_qubits": 17,
+      "ancillas": 1,
+      "acceptance": 0.765625,
+      "port_distance": 15,
+      "ports": [
+        0,
+        36
+      ],
+      "ancilla_qubit": 12
+    },
+    {
+      "layout": "heavy-hex d=16",
+      "case": "noisy",
+      "fidelity": 0.7699374999999999,
+      "fidelity_err": 0.0034680004116880883,
+      "depth": 30,
+      "two_qubit_gates": 46,
+      "swaps": 15,
+      "physical_qubits": 17,
+      "ancillas": 0,
+      "acceptance": 1.0,
+      "port_distance": 16,
+      "ports": [
+        0,
+        24
+      ],
+      "ancilla_qubit": null
+    },
+    {
+      "layout": "heavy-hex d=16",
+      "case": "protected+noisy",
+      "fidelity": 0.9405505133565322,
+      "fidelity_err": 0.002176643012233227,
+      "depth": 36,
+      "two_qubit_gates": 51,
+      "swaps": 16,
+      "physical_qubits": 17,
+      "ancillas": 1,
+      "acceptance": 0.7528333333333334,
+      "port_distance": 16,
+      "ports": [
+        0,
+        24
+      ],
+      "ancilla_qubit": 12
+    }
+  ]
+}
